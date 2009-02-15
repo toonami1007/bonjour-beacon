@@ -3,6 +3,20 @@
 
 == Documentation ==
 
+BonjourBeacon is a Java based tool that makes networks outside the own subnet accessible for bonjour application. It is designed to work with Airfoil (see http://rogueamoeba.com/airfoil/), but it should work with other applications as well. 
+
+Follow the instructions in the graphical user interface to establish a new configuration. 
+
+Parameters:
+
+- Profile Name: the name of the profile (used as identifier and filename, must be unique)
+- Host Name: the name of the host that shall be made accessible in your subnet
+- Host MAC: the MAC value of the host, without ':' (e.g. 000C76C03FA6)
+- Host IP: the IP address of the host
+- Password: true, if enabled, false otherwise
+- Local OS: select an existing item, or use custom to enter a custom value
+
+
 
 == Release Notes ==
 
