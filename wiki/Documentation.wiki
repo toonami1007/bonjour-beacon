@@ -33,6 +33,15 @@ dns-sd -P 000C76C03FA6@Bandersnatch _airfoilspeaker._tcp. "" 5000 bandersnatch.l
 ss=16 rast=afs pw=true raver=1.0.0.0 sr=44100 ch=2 ramach=Win32NT.5
 }}}
 
+The dns-sd process instance is maintained and when exiting BonjourBeacon the application takes care that the registered dns-sd instances are killed.
+
+Note: To see some debug messages, run the jar file from commandline:
+
+{{{
+java -jar BonjourBeacon.jar
+}}}
+
+<p>
 == Release Notes ==
 
   * beta version still has bugs on MacOSx (not functional on mac)
