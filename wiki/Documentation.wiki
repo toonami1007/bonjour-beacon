@@ -9,13 +9,15 @@ Follow the instructions in the graphical user interface to establish a new confi
 
 Parameters:
 
-- Profile Name: the name of the profile (used as identifier and filename, must be unique)
-- Host Name: the name of the host that shall be made accessible in your subnet
-- Host MAC: the MAC value of the host, without ':' (e.g. 000C76C03FA6)
-- Host IP: the IP address of the host
-- Password: true, if enabled, false otherwise
-- Local OS: select an existing item, or use custom to enter a custom value
+  * Profile Name: the name of the profile (used as identifier and filename, must be unique)
+  * Host Name: the name of the host that shall be made accessible in your subnet
+  * Host MAC: the MAC value of the host, without ':' (e.g. 000C76C03FA6)
+  * Host IP: the IP address of the host
+  * Password: true, if enabled, false otherwise
+  * Local OS: select an existing item, or use custom to enter a custom value
+  * Protocol/Port: the protocol and port, for airfoil '_airfoilspeaker._tcp./5000'
 
+By default the autostart of the profile is disabled. Hence you must click the start button to register your profile. You can enable autostart in the context menu, which you reach by clicking the Config button next to your profile. The profiles are stored in the 'configurations' folder, the name of the file is %profileName% (note: space is replaced by '_'). The next you start BonjourBeacon the tool looks in the configurations folder for existing configuration files.
 
 
 == Release Notes ==
