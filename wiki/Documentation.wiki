@@ -1,10 +1,10 @@
 #summary Documentation & Release Notes
 #labels Featured
 
-= Documentation =
+== Documentation ==
 
 
-= Release Notes =
+== Release Notes ==
 
   * beta version still has bugs on MacOSx (not functional on mac)
   * changing items is not yet implemented
