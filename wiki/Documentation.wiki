@@ -1,4 +1,12 @@
-#summary Documentation
+#summary Documentation & Release Notes
 #labels Featured
 
 = Documentation =
+
+
+= Release Notes =
+
+* beta version still has bugs on MacOSx (not functional on mac)
+* changing items is not yet implemented
+* text field for password will be changed to checkbox, value must be 'true' or 'false'
+* mac value must be entered without ':'
