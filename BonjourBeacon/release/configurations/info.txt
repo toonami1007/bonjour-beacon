@@ -1,0 +1,3 @@
+This is the folder in which profiles are stored.
+
+It is recommended to not edit the configuration files! Use the gui for this purpose.
