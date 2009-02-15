@@ -22,14 +22,15 @@ By default the autostart of the profile is disabled. Hence you must click the st
 For each profile a dns-sd instance is executed (when the profile is running). Dns-sd is a command line tool that enables exactly the features we need such that our bonjour application work. The dns-sd command looks as follows:
 
 {{{
-dns-sd -P %MAC%@%HOSTNAME% %PROTOCOL% "" %PORT% %HOSTNAME%.local %IP% tp=UDP txtvers=1 ss=16 rast=afs pw=%PASSWORD% raver=1.0.0.0 sr=44100 ch=2 ramach=%OS-VALUE%
+dns-sd -P %MAC%@%HOSTNAME% %PROTOCOL% "" %PORT% %HOSTNAME%.local %IP% tp=UDP txtvers=1
+ss=16 rast=afs pw=%PASSWORD% raver=1.0.0.0 sr=44100 ch=2 ramach=%OS-VALUE%
 }}}
 
 for example:		
 
 {{{
-dns-sd -P 000C76C03FA6@Bandersnatch _airfoilspeaker._tcp. "" 5000 bandersnatch.local 172.16.14.102 tp=UDP txtvers=1 ss=16 rast=afs pw=true raver=1.0.0.0 sr=44100 ch=2 ramach=Win32NT.5
-		
+dns-sd -P 000C76C03FA6@Bandersnatch _airfoilspeaker._tcp. "" 5000 bandersnatch.local 172.16.14.102 tp=UDP txtvers=1
+ss=16 rast=afs pw=true raver=1.0.0.0 sr=44100 ch=2 ramach=Win32NT.5
 }}}
 
 == Release Notes ==
